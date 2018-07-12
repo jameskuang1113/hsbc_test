@@ -1,0 +1,25 @@
+{
+  "name": "hsbc_test",
+  "version": "1.0.0",
+  "main": "./gateway/server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-all": "npm --prefix ./gateway i ./gateway && npm --prefix ./customer-api i ./customer-api && npm --prefix ./transaction-api i ./transaction-api && npm --prefix ./predict-api i ./predict-api",
+	"start-customer-api": "node ./customer-api/server",
+  "start-transaction-api": "node ./transaction-api/server",
+  "start-predict-api": "node ./predict-api/server",
+  "start-gateway": "node ./gateway/server"
+  },
+  "keywords": [
+    "GraphQL",
+    "Microservices",
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "dependencies": {
+    "gateway": "file:gateway",
+    "customer-api": "file:customer-api",
+    "transaction-api": "file:transaction-api",
+    "predict-api": "file:predict-api"
+  }
+}
