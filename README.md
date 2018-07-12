@@ -10,3 +10,7 @@ Deliverables:
 1. API for the customer database, API for the transactions database and GraphQL API 
 
 2. GitHub link for the core code
+
+
+HOW TO USE THIS
+./

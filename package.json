@@ -4,7 +4,7 @@
   "main": "./gateway/server",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install-all": "npm --prefix ./gateway i ./gateway && npm --prefix ./customer-api i ./customer-api && npm --prefix ./transaction-api i ./transaction-api && npm --prefix ./predict-api i ./predict-api",
+    "install-all": "npm --prefix ./gateway i ./gateway && npm --prefix ./customer-api i ./customer-api && npm --prefix ./transaction-api i ./transaction-api && npm --prefix ./predict-api i ./predict-api && npm --prefix ./web i ./web",
 	"start-customer-api": "node ./customer-api/server",
   "start-transaction-api": "node ./transaction-api/server",
   "start-predict-api": "node ./predict-api/server",
