@@ -15,10 +15,15 @@ Deliverables:
 HOW TO 
 
 ./database          // The mock data of our database
+
 ./gateway           // Source code of the microservice gateway in node js
+
 ./customer-api      // Source code of customer api microservice in node js
+
 ./transaction-api   // Source code of transaction api microservice in node js
+
 ./predict-api       // Source code of prediction microservice in node js; RNN is applied to implement prediction with brain.js.
+
 ./web               // Source code of the web dashboard in ReactJS
 
 1. 'npm run install-all' will install all the required node_modules.
